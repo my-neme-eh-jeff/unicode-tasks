@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Aman Nambisan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="icon" href="favicon.ico">
+
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <div class="nav-bar-div">
+                <ul class="menu">
+                    <li><a href="#anchor1"><i class="fa fa-home home-icon" style="font-size:48px"></i></a></li>
+                    <li><a href="#anchor2">About</a></li>
+                    <li><a href="#anchor3">Education</a></li>
+                    <li><a href="#anchor4">Skills</a></li>
+                    <li><a href="#anchor5">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <span id="anchor1" class="anchor"></span>
+        <section class="home" id="home">
+            <h1 class="name">Aman Nambisan</h1>
+            <p class="line1">I'm a <span class="underline"> pro</span>grammer</p>
+        </section>
+
+        <span id="anchor2"></span>
+
+        <hr>
+
+        <section class="about" id="about">
+            <div class="about-info">
+            <img class="chiki-photo" src="chiki.jpg" alt="My picture">
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <span id="anchor3"></span>
+
+        </section>
+
+        <hr>
+
+        <section class="education" id="education">
+            <div class="education-info">
+            <img class="school-photo" src="school.png" alt="School icon">
+            <p class="education-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate exp.velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+            <span id="anchor4"></span>
+
+        </section>
+
+        <hr>
+
+        <section class="skills" id="skills">
+            <div class="skills-info">
+            <img class="skills-photo" src="skills-pic-final.jpg" alt="Skills icon">
+            <p class="skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate exp.velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+        </section>
+        
+        <hr>
+
+        <span id="anchor5"></span>
+        <section class="contact-me">
+            <p class="contact-title">Get in touch!</p>
+            <form action="" name="submit-form" onsubmit="return validateForm()" method="post"> 
+
+                <div class="formdesign" id="name">
+                    <p class="name-form-title"></span>Full name:</p> <input type="text" name="fullname" placeholder="John doe"> <em><span class="formerror" id="errorname1"></span></em>
+                </div>
+
+                <div class="formdesign" id="email">
+                    <p class="name-form-title"></span>Email id:</p> <input type="text" name="emailid" placeholder="joe123@gmail.com"> <em><span class="formerror" id="errorname2"></span></em>
+                </div>
+
+                <div class="formdesign" id="phonenumber">
+                    <p class="name-form-title"></span>Phone number:</p> <input type="text" name="phone-number" placeholder="1234567890"> <em><span class="formerror" id="errorname3"></span></em>
+                </div>
+
+                <input type="submit" class="butn" type="button" > 
+
+            </form>
+
+        </section>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>

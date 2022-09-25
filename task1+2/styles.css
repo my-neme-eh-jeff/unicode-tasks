@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke ;
+    font-family:'Quicksand', sans-serif;
+    padding-top: 15em;
+}
+
+
+
+.nav-bar{
+    background-color: black;
+    opacity: 95%;
+    width: 200%;
+    position:fixed ;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+    top: 0;
+    font-weight: bold;
+    padding-bottom : 10px;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px
+}
+
+.nav-bar a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFDD93;
+    text-shadow: 2px 2px 1px #ffcd60;
+    transition: 0.7s;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+.home-icon{
+    margin-left: 50px;
+}
+
+.home-icon:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFDD93;
+    text-shadow: 2px 2px 1px #ffcd60;
+    transition: 0.7s;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+ul{
+    font-size: 2.5rem ;
+}
+
+title{
+    margin-top: 60px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    width: 90%;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #FFDD93));
+    margin: 0 auto;
+}
+
+.home{
+    text-align: center;
+    margin-bottom: 260px;
+}
+
+.name{
+    font-size: 180px;
+    font-family: 'Sacramento', cursive;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #FFDD93;
+}
+
+.line1{
+    font-size: 95px;
+}
+
+.chiki-photo{
+    height: 750px;
+    width: auto;
+    float: left;
+    margin-left: 8em;
+    margin-right: 7em;
+    box-shadow: #FFDD93 0px 5px 15px;
+}
+
+.about-info{
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    margin-top : 50px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.2;
+    margin-bottom: 80px;
+}
+
+.about-text{
+    font-size: 33px;
+    margin-right: 10px;
+}
+
+
+.education{
+    margin-top : 80px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.2;
+    margin-bottom: 80px;
+}
+
+.education-info{
+    display: flex;
+    align-items: center;
+
+}
+
+.education-text{
+    font-size: 33px;
+    margin-right: 10px;
+}
+
+.school-photo{
+    height: 550px;
+    width: auto;
+    margin-right: 8em;
+    margin-left: 7em;
+    float: right;
+}
+
+.skills{
+    margin-top : 80px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.2;
+    margin-bottom: 80px;
+}
+
+.skills-info{
+    display: flex;
+    align-items: center;
+}
+
+.skills-text{
+    font-size: 33px;
+    margin-right: 10px;
+}
+
+.skills-photo{
+    height: 550px;
+    width: auto;
+    margin-right: 8em;
+    margin-left: 7em;
+    float: right;
+
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+    visibility: hidden;
+}
+
+.skills{
+    margin-top : 80px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.2;
+    margin-bottom: 80px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contact-me{
+    margin-top: 80px;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.formdesign{
+    padding-left: 4.5rem;
+    font-size: 30px;
+}
+
+.formdesign input{
+    width: 30%;
+    font-size: 20px;
+    border-color: #FFDD93;
+    border-radius: 13px;
+    padding: 7px 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.formdesign input:focus{
+outline: #FFDD93;
+}
+
+.butn{
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-left: 4.5rem;
+    width: 150px;
+    height: 45px;
+    font-size: 30px;
+    border: none;
+}
+
+
+
+.formerror{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.fa-instagram{
+    color:white;
+}
+
+.max-width a{
+    text-decoration: none;
+}
+
+
+

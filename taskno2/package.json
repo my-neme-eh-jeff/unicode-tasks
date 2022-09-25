@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "taskno2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "breakingbad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
